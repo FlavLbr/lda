@@ -1,0 +1,22 @@
+des images de plantes entrain de croitre
+chaque ligne correspond au suivi d'une salade
+
+2 caméra : RGB et Depth
+1 image tout les 15min
+
+2 courbe de croissance dans le temps suivant rgb ou depth
+
+y0 : debut
+ymax : max
+k et lag: tanh 'gampertz function'
+
+Gr_per_day : croissance par jour moyenne
+
+egalement des mesures manuelles Llength Lwidth
+
+color : salade vert ou rouge
+
+mean_slope_rgb : moyenne de croissance
+mean_c1: amplitude du cycle
+
+ACP pour tous + LDA
